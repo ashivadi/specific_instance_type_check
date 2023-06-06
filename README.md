@@ -1,9 +1,9 @@
 # Overview
-Wrapper to check which regions a particular EC2 instance type is offerred. Note, this script does not actually provide the current available capacity, just provides information about region the instance type is officially available in.
+Wrapper to check which regions a particular EC2 instance type is offerred. Note, this script does not actually provide the current available capacity, just provides information about the region an instance type is officially available in.
 
 
 # Prerequisites
-1. Make sure to have tbe latest AWS CLI installed. See [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+1. Make sure to have the latest AWS CLI installed. See [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 2. Make sure you configured you AWS CLI with an IAM role / user that has enough permissions to execute the [DescribeInstanceTypeOfferings](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonelasticcomputecloudec2.html#:~:text=DescribeInstanceTypeOfferings) API. This is the core API that is used in this wrapper.
 
 # Setup

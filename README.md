@@ -1,5 +1,6 @@
 # Overview
-Wrapper to check which regions a particular EC2 instance type is offerred.
+Wrapper to check which regions a particular EC2 instance type is offerred. Note, this does not actually provide the current available capacity, just which region the instance type is officially ordered in.
+
 
 # Prerequisites
 1. Make sure to have tbe latest AWS CLI installed. See [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).

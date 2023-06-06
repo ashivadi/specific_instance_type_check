@@ -15,10 +15,10 @@ chmod +x ./specific_instance_type_check.sh
 # Usage
 
 ```
-./specific_instance_type_check <instance type>
+./specific_instance_type_check.sh <instance type>
 ```
 # Example
 ```
-./specific_instance_type_check p4d.24xlarge
+./specific_instance_type_check.sh p4d.24xlarge
 cat p4d.24xlarge
 ```

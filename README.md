@@ -20,6 +20,6 @@ chmod +x ./specific_instance_type_check.sh
 ```
 # Example
 ```
-./specific_instance_type_check.sh p4d.24xlarge
-cat p4d.24xlarge
+./specific_instance_type_check.sh p4d.24xlarge && cat p4d.24xlarge.csv
+
 ```

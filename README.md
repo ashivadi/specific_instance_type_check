@@ -1,5 +1,5 @@
 # Overview
-Wrapper to check which regions a particular EC2 instance type is offerred. Note, this does not actually provide the current available capacity, just which region the instance type is officially ordered in.
+Wrapper to check which regions a particular EC2 instance type is offerred. Note, this script does not actually provide the current available capacity, just provides information about region the instance type is officially available in.
 
 
 # Prerequisites
